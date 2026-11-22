@@ -6,7 +6,7 @@ If you find a security issue in this repository, report it privately through Git
 
 ## Scope
 
-These skills give guidance to AI agents. They contain no product code from any vendor. Vulnerabilities in One Identity, OpenText, Wazuh or other products must be reported to those vendors.
+These skills give guidance to AI agents. They contain no product code from any vendor. Vulnerabilities in One Identity, OpenText or other products must be reported to those vendors.
 
 ## Leaked data
 
