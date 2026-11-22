@@ -1,0 +1,10 @@
+{
+  "name": "one-identity",
+  "version": "0.1.0",
+  "description": "One Identity suite skills: Identity Manager (IGA), Designer customization, Active Roles, OneLogin, Password Manager, Safeguard and Starling.",
+  "author": { "name": "D4rkDr4gon", "url": "https://github.com/D4rkDr4gon" },
+  "homepage": "https://github.com/D4rkDr4gon/iam-agent-skills",
+  "repository": "https://github.com/D4rkDr4gon/iam-agent-skills",
+  "license": "Apache-2.0",
+  "keywords": ["one-identity", "iga", "pam", "iam"]
+}

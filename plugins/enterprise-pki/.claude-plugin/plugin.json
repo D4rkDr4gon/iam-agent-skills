@@ -1,0 +1,10 @@
+{
+  "name": "enterprise-pki",
+  "version": "0.1.0",
+  "description": "Enterprise certificate handling: keystores, keytool, OpenSSL, CSRs, SANs, trust chains and renewals.",
+  "author": { "name": "D4rkDr4gon", "url": "https://github.com/D4rkDr4gon" },
+  "homepage": "https://github.com/D4rkDr4gon/iam-agent-skills",
+  "repository": "https://github.com/D4rkDr4gon/iam-agent-skills",
+  "license": "Apache-2.0",
+  "keywords": ["pki", "certificates", "keytool", "openssl"]
+}

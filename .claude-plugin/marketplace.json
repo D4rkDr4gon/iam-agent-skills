@@ -1,0 +1,45 @@
+{
+  "name": "iam-agent-skills",
+  "owner": {
+    "name": "D4rkDr4gon",
+    "url": "https://github.com/D4rkDr4gon"
+  },
+  "metadata": {
+    "description": "Generic, installation-agnostic Agent Skills for Identity & Access Management: One Identity, OpenText/NetIQ IDM & Access Manager, enterprise PKI and Wazuh.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "one-identity",
+      "source": "./plugins/one-identity",
+      "description": "One Identity suite: Identity Manager (IGA) administration and Designer customization, Active Roles, OneLogin, Password Manager, Safeguard (PAM) and Starling.",
+      "version": "0.1.0",
+      "category": "identity",
+      "keywords": ["one-identity", "iga", "pam", "iam", "safeguard", "onelogin", "active-roles"]
+    },
+    {
+      "name": "opentext-identity",
+      "source": "./plugins/opentext-identity",
+      "description": "OpenText (NetIQ) Identity Manager and Access Manager: identity servers, drivers, workflow forms, NAM configuration and IDM/NAM health checks.",
+      "version": "0.1.0",
+      "category": "identity",
+      "keywords": ["netiq", "opentext", "identity-manager", "access-manager", "edirectory", "iam"]
+    },
+    {
+      "name": "enterprise-pki",
+      "source": "./plugins/enterprise-pki",
+      "description": "Enterprise certificate handling: keystores (JKS/PKCS12), keytool, OpenSSL, CSRs, SANs, trust chains and renewals for Java/LDAP/identity platforms.",
+      "version": "0.1.0",
+      "category": "security",
+      "keywords": ["pki", "certificates", "keytool", "openssl", "tls"]
+    },
+    {
+      "name": "security-operations",
+      "source": "./plugins/security-operations",
+      "description": "Security operations: Wazuh SIEM/XDR deployment, agents, rules/decoders, API and SOAR integrations.",
+      "version": "0.1.0",
+      "category": "security",
+      "keywords": ["wazuh", "siem", "xdr", "soc", "blue-team"]
+    }
+  ]
+}

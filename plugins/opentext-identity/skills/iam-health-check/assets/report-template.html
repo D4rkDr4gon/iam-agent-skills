@@ -1,0 +1,25 @@
+<!-- Health check report template. Replace {{...}} placeholders; repeat the <tr> per item. -->
+<div style="font-family: sans-serif; font-size: 14px;">
+  <h3 style="margin: 0 0 4px 0;">Health check — {{TITLE}} — {{DATE}}</h3>
+  <p style="margin: 0 0 12px 0; color: #555;">Reference: {{REFERENCE}}</p>
+  <table style="border-collapse: collapse;">
+    <thead>
+      <tr>
+        <th style="text-align: left; padding: 4px 12px 4px 0;">Status</th>
+        <th style="text-align: left; padding: 4px 12px 4px 0;">Check</th>
+        <th style="text-align: left; padding: 4px 0;">Detail</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- OK -->
+      <tr><td style="padding: 4px 12px 4px 0; color: #1a7f37; font-weight: bold;">[OK]</td><td style="padding: 4px 12px 4px 0;">{{CHECK}}</td><td></td></tr>
+      <!-- WARNING -->
+      <tr><td style="padding: 4px 12px 4px 0; color: #9a6700; font-weight: bold;">[WARNING]</td><td style="padding: 4px 12px 4px 0;">{{CHECK}}</td><td>{{DETAIL}}</td></tr>
+      <!-- ERROR -->
+      <tr><td style="padding: 4px 12px 4px 0; color: #cf222e; font-weight: bold;">[ERROR]</td><td style="padding: 4px 12px 4px 0;">{{CHECK}}</td><td>{{DETAIL}}</td></tr>
+      <!-- N/A -->
+      <tr><td style="padding: 4px 12px 4px 0; color: #6e7781; font-style: italic;">[N/A]</td><td style="padding: 4px 12px 4px 0;">{{CHECK}}</td><td></td></tr>
+    </tbody>
+  </table>
+  <p style="margin-top: 12px;"><em>{{NOTES}}</em></p>
+</div>
